@@ -1,0 +1,67 @@
+{
+  "generated": "2026-10-07",
+  "note": "每个库的 config 地址可直接粘进播放器『配置』里使用；jar/脚本与配置同目录，播放器会自动解析相对路径。",
+  "count": 4,
+  "libraries": [
+    {
+      "slug": "fantaihard",
+      "name": "饭太硬",
+      "desc": "49 站点 · 8 条直播 · 自带 spider.jar",
+      "config": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/fantaihard/api.json",
+      "spider": "./spider.jar",
+      "jars": [
+        "spider.jar"
+      ],
+      "sites": 49,
+      "lives": 8
+    },
+    {
+      "slug": "feimao",
+      "name": "肥猫",
+      "desc": "39 站点 · 2 条直播 · 自带 spider.jar",
+      "config": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/feimao/api.json",
+      "spider": "./spider.jar",
+      "jars": [
+        "spider.jar"
+      ],
+      "sites": 39,
+      "lives": 2
+    },
+    {
+      "slug": "ouge",
+      "name": "欧歌",
+      "desc": "122 站点 · 2 条直播 · 主力 spider.jar + jars/ 里 7 个附加 jar",
+      "config": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/ouge/api.json",
+      "spider": "./spider.jar",
+      "jars": [
+        "jars/config.jar",
+        "jars/csp_wogg1.jar",
+        "jars/养生堂.jar",
+        "jars/哔️软件.jar",
+        "jars/大师兄.jar",
+        "jars/橘皮.jar",
+        "jars/豆瓣1.jar",
+        "spider.jar"
+      ],
+      "sites": 122,
+      "lives": 2
+    },
+    {
+      "slug": "tianwei",
+      "name": "天微",
+      "desc": "84 站点 · 6 条直播 · tw.jar + lib/ 里 5 个附加 jar",
+      "config": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/tianwei/api.json",
+      "spider": "./tw.jar",
+      "jars": [
+        "lib/YD.jar",
+        "lib/Yoursmile.jar",
+        "lib/kjtw.jar",
+        "lib/vo.jar",
+        "lib/柠檬.jar",
+        "tw.jar"
+      ],
+      "sites": 84,
+      "lives": 6
+    }
+  ]
+}
