@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-07",
-  "note": "每个库的 config 地址可直接粘进播放器『配置』里使用；jar/脚本与配置同目录，播放器会自动解析相对路径。",
+  "note": "每个库的 config 地址可直接粘进播放器『配置』里使用；jar/脚本与配置同目录，播放器会自动解析相对路径。lines 是同一配置的多个镜像通道，播放器『线路』按钮可直接切换（国内直连 raw 不通时切副线/备用）。",
   "count": 4,
   "libraries": [
     {
@@ -13,7 +13,21 @@
         "spider.jar"
       ],
       "sites": 49,
-      "lives": 8
+      "lives": 8,
+      "lines": [
+        {
+          "name": "主线",
+          "url": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/fantaihard/api.json"
+        },
+        {
+          "name": "副线",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/nim0905/tvbox-config/main/fantaihard/api.json"
+        },
+        {
+          "name": "备用",
+          "url": "https://ghfast.top/https://raw.githubusercontent.com/nim0905/tvbox-config/main/fantaihard/api.json"
+        }
+      ]
     },
     {
       "slug": "feimao",
@@ -25,7 +39,21 @@
         "spider.jar"
       ],
       "sites": 39,
-      "lives": 2
+      "lives": 2,
+      "lines": [
+        {
+          "name": "主线",
+          "url": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/feimao/api.json"
+        },
+        {
+          "name": "副线",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/nim0905/tvbox-config/main/feimao/api.json"
+        },
+        {
+          "name": "备用",
+          "url": "https://ghfast.top/https://raw.githubusercontent.com/nim0905/tvbox-config/main/feimao/api.json"
+        }
+      ]
     },
     {
       "slug": "ouge",
@@ -44,7 +72,21 @@
         "spider.jar"
       ],
       "sites": 122,
-      "lives": 2
+      "lives": 2,
+      "lines": [
+        {
+          "name": "主线",
+          "url": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/ouge/api.json"
+        },
+        {
+          "name": "副线",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/nim0905/tvbox-config/main/ouge/api.json"
+        },
+        {
+          "name": "备用",
+          "url": "https://ghfast.top/https://raw.githubusercontent.com/nim0905/tvbox-config/main/ouge/api.json"
+        }
+      ]
     },
     {
       "slug": "tianwei",
@@ -61,7 +103,21 @@
         "tw.jar"
       ],
       "sites": 84,
-      "lives": 6
+      "lives": 6,
+      "lines": [
+        {
+          "name": "主线",
+          "url": "https://raw.githubusercontent.com/nim0905/tvbox-config/main/tianwei/api.json"
+        },
+        {
+          "name": "副线",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/nim0905/tvbox-config/main/tianwei/api.json"
+        },
+        {
+          "name": "备用",
+          "url": "https://ghfast.top/https://raw.githubusercontent.com/nim0905/tvbox-config/main/tianwei/api.json"
+        }
+      ]
     }
   ]
 }
